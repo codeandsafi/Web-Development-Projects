@@ -1,0 +1,150 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">');
+
+@import url('<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+#title {
+    background-color: #ff4c68;
+    padding: 3%;
+    color: #fff;
+}
+
+.fluid-container {
+    padding: 3% 15%;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.dogImage {
+    width: 20vw;
+    transform: rotate(12deg);
+    position: absolute;
+    z-index: 0;
+}
+
+h1 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.buttons{
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .dogImage {
+        position: relative;
+        z-index: 1;
+        transform: rotate(0);
+    }
+
+    #features {
+        position: static;
+    }
+
+    #title{
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    size: 50%;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.heading1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph1 {
+    color: grey;
+}
+
+/* #testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    font-weight:900;
+    padding: 7% 25%;
+} */
+
+.testTextAndImg {
+    text-align: center;
+    background-color: #ff4c68;
+    font-weight: 900;
+    padding: 7% 20%;
+    height: 420px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.testDogImg {
+    border-radius: 100%;
+    width: 12vw;
+    padding: 20px;
+}
+
+#press {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 0px 20px 50px 20px;
+}
+
+#pressImg {
+    width: 12vw;
+    padding: 12px;
+}
+
+#pricing {
+    text-align: center;
+}
+
+.row-1 {
+    justify-content: center;
+}
+
+.cards {
+    margin: 30px;
+}
+
+#pricing {
+    margin: 5%;
+}
+
+.btn2 {
+    width: 100%;
+    line-height: 1rem;
+}

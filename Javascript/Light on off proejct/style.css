@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(16, 0, 46);
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.btn {
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 26px;
+    background: #f5b105;
+    padding: 11px 20px 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background: #de9400;
+    text-decoration: none;
+  }
+
+#myImage{
+    width: 30vw;
+    height: 60vh;
+  }
+
+h3{
+    color: #ffffff;
+    font-size: 35px;
+}
